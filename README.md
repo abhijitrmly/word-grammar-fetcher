@@ -1,6 +1,6 @@
 # word-grammar-fetcher
 
-This project was developed using Node JS to fetch grammar data related to most frequently words from a Sherlock Holmes story.
+This project was developed using Node JS to fetch grammar data related to most frequently occuring words from a Sherlock Holmes story.
 
 ## Available Scripts
 
@@ -10,6 +10,6 @@ In the project directory, you can run:
 
 ### `yarn start`
 
-Runs the app and display results in console.\
+This command runs the app and display results in console.
 
 
