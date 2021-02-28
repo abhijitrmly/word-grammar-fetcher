@@ -8,8 +8,9 @@ To get started, create a .env file (sample .env.example is added in the reposito
 
 In the project directory, you can run:
 
+### `yarn install`
 ### `yarn start`
 
-This command runs the app and display results in console.
+This command install dependencies, runs the app and display results in console.
 
 
