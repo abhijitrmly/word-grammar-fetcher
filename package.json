@@ -12,5 +12,10 @@
   "license": "ISC",
   "dependencies": {
     "needle": "^2.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
   }
 }
