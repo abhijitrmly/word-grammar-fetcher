@@ -78,20 +78,20 @@ const main = async () => {
 
       // get word grammar from Yandex api
       const response = await Promise.all([...promises]);
-      const mergedResponse = response.map(
+
+      const responseInJsonFormat = {};
+      response.forEach(
         (res) => {
           const { word, posWords, synonyms } = res;
-          return ({
-            [word]: {
-              posWords,
-              synonyms,
-              occurence: wordCount.get(word),
-            },
-          });
+          responseInJsonFormat[word] = {
+            posWords,
+            synonyms,
+            occurence: wordCount.get(word),
+          };
         },
       );
 
-      console.log('response', mergedResponse);
+      console.log('responseInJsonFormat', responseInJsonFormat);
     }
   });
 };
